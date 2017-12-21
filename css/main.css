@@ -10,12 +10,13 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 'Noto Sans', sans-serif;
+  font: normal 100%/1.3 "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
 }
@@ -25,7 +26,7 @@ section {
 }
 
 .wrapper {
-  margin: 0;
+  margin: 0 auto;
   max-width: 45em;
   display: block;
   overflow: hidden;
@@ -38,8 +39,7 @@ section {
 
 .section-letter {
   float: left;
-  width:50%;
-  
+  width: 50%;
 }
 
 .section-icon {
@@ -47,12 +47,11 @@ section {
   width: 50%;
 }
 
-
 .section-body {
   padding: 0 2rem 1.4rem;
 }
 
-section h2{
+section h2 {
   font-weight: bold;
   margin: 0;
 }
@@ -66,11 +65,11 @@ section p {
   .section-body {
     padding: 0 1.3rem 1.3rem;
   }
-  
+
   .section-letter {
     padding: 1.3rem 1.3rem 0;
   }
-  
+
   .section-icon {
     padding: 1.3rem 1.3rem 0;
   }
@@ -82,16 +81,17 @@ section p {
     font-size: 110%;
     line-height: 1.4;
   }
-  
-  .section-letter { 
+
+  .section-letter {
     float: left;
     width: 20%;
   }
-  
-  .section-icon{
-  float: right;
+
+  .section-icon {
+    float: right;
     width: 20%;
   }
+
   .section-body {
     margin: 1.4rem;
   }
